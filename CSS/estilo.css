@@ -1,8 +1,6 @@
-/*html{
-	font-size: 62.5%;
-*/}
+
 .gridIndex{
-	display: grid;
+	/display: grid*/;
 	grid-template-columns: 100px 200px 100px;
 	grid-template-rows: auto auto auto auto auto;
 	grid-template-areas:
@@ -15,7 +13,7 @@
 header{display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	grid-area: header;margin-bottom: 50px;border-bottom: solid 1px;padding: 20px 0; position: sticky;top: 0;
+	grid-area: header;margin-bottom: 50px;border-bottom: solid 1px;padding: 20px 0;
 	grid-area: header;}
 
 .imgPrincipal{grid-area: imagenPrincipal;}
@@ -28,6 +26,7 @@ header{display: flex;
 .bgColor{justify-content: center;
 	background-color: lightblue;
 }
+body{background: lightblue;}
 li{list-style-type: none;padding: 10px;margin: 10px;}
 ul{display: flex;justify-content: flex-end; list-style-type: none; flex-wrap: wrap;}
 nav{width: 100%;}
@@ -37,10 +36,13 @@ justify-content: center;
 align-items: center;
 grid-area: footer;
 }	
+.box{width: 600;
+height: 600;
+background-image: linear-gradient(gray,white);}
 .imgPrincipal img, .img img{width: 100%;}
 h1{
 	font-family: comic sans ms;
-	color: red;}
+	color: black;}
 .overflow{
 	width: 450px;
 	height: 450px;}
@@ -51,15 +53,15 @@ a {
 }
 main,article,p {
 	text-align: center;
-    color: gray;}
+    color: black;}
 h3{justify-content: center;
 	font-family: comic sans ms ;
-	color:red;}
+	color:gray;}
 .border{
-	border-top:solid 2px blue;
-	border-bottom: solid 2px blue ;
-	border-left:solid 2px blue;
-	border-right: solid 2px blue;}
+	border-top:solid 5px white;
+	border-bottom: solid 5px white ;
+	border-left:solid 5px white;
+	border-right: solid 5px white;}
 .padding{
 	padding-top:10px ;
 	padding-right:10px ;
@@ -67,16 +69,16 @@ h3{justify-content: center;
 	padding-left:2px ;}
 .margin{
 	margin:8px;}
-aside p{ color:black; }
+aside p{ color:white; }
 
 {box-sizing: border-box ; 
   padding: 0 ;
-  margin: 0 ;  
+  margin: 0 ; 
 }
 @media only screen and (min-width: 780px){
-	body .gridIndex{background-color: gray;}
+	body .gridIndex{background-color: lightblue;}
 	header,footer{flex-direction: column;}
 	ul{padding: 0;}
 @media only screen and(min-width: 780px) and (min-width: 1023px) 
-    {body .gridIndex{background-color: gray;}
+    {body .gridIndex{background-color: lightblue;}
  @media only screen and(min-width: 1024px)
