@@ -5,16 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><title>IMAGINE</title>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<title>IMAGINE</title>
 </head>
 <body>
 	<header class="gridIndex encabezado rew paddin border margin">
-	   <div data-aos="fade-up">
+	   <div data-aos="fade-up conteiner">
 		  <a href="index.html"><img src="Img/LOGO.png" alt="logo"></a>
 			</div>
 		        <div class="row">
 	            <div class="col-12col-lg-6"></div> 
-	            <nav class="bgColor navbar navbar-light">                  <ul>
+	            <nav class="bgColor navbar navbar-light">
+                    <ul class="paddin border margin">
 			        <li><a href="index.html">Inicio</a></li>
 		            <li><a href="Pages/seccion1.html">Seccion1</a></li>
 			        <li><a href="Pages/seccion2.html">Seccion2</a></li>
@@ -25,22 +28,63 @@
 	   </div>
 	   <br>
 	</header>
-			<main class="row">
-			<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+	     <main class="container">
+
+	        <!--CONTENIDO-->
+
+	       <div class="row"></div>
+	       <div class="co-12col-lg-12"></div>
+	       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img src="Img/300x300.jpg" class="d-block w-100" alt="...">
+			      <img src="Img/0.jpg" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="Img/300x300.jpg" class="d-block w-100" alt="...">
+			      <img src="Img/1.jpeg" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="Img/300x300.jpg" class="d-block w-100" alt="...">
+			      <img src="Img/3.jpg" class="d-block w-100" alt="...">
 			    </div>
 			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
 			</div>
-	    <section class="encabezado border">
-		    <div class="box">
+			<br>
+			<!--CARD-->
+			<div class="row d-flex justify-content-flex-end"></div>
+			<di class="col-12col-lg-4">
+				<h1 class="centrar md-5">INICIO</h1>
+			</di>
+			<div class="card" style="width: 18rem;">
+			    <img src="Img/300x300.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Buzo Oversiza</h5>
+				    <p class="card-text">Buzo de friza estilo oversiza.</p>
+				    <a href="#" class="btn btn-primary">Comprar Ya!</a>
+				  </div>
+				</div>
+			   <di class="col-12col-lg-6"></di>
+			      <div class="card" style="width: 18rem;">
+			        <img src="Img/2.jpg" class="card-img-top" alt="...">
+				     <div class="card-body">
+				     <h5 class="card-title">Buzo Oversiza</h5>
+				     <p class="card-text">Buzo de friza estilo oversiza.</p>
+				     <a href="#" class="btn btn-primary">Comprar Ya!</a>
+				  </div>
+				</div>
+	        <section class="encabezado border">
+		       <div class="box">
 		        <article>
 		 	        <h1>BIENVENIDOS</h1>
 		             <p class="bgParrafo">Ropa Urbana EMAGINE nace en julio de 2022, somos una tienda innovadora creada por mi familia. Bridamos la mejor atención a nuestros clientes, tenemos los mejores precios y una gran variedad de artículos.
@@ -48,7 +92,7 @@
 				            <h3>!Su consulta no molesta¡</h3>
 	            </article>
 	        </div>
-	    </section>
+	        </section>
 			</main>
 				<footer>
 				    <ul>
@@ -60,5 +104,6 @@
 			<script>
 		  AOS.init();
 		</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 		</body> 
 </html>

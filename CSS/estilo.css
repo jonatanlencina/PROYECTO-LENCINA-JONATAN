@@ -28,7 +28,7 @@ header{display: flex;
 }
 body{background: white;}
 li{list-style-type: none;padding: 10px;margin: 10px;}
-ul{display: flex;justify-content: flex-end; list-style-type: none; flex-wrap: wrap;}
+ul{display: flex;justify-content: center; list-style-type: none; flex-wrap: wrap;}
 nav{width: 100%;}
 footer{display: flex;
 flex-direction: column;
