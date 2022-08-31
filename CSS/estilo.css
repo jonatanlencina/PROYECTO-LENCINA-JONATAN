@@ -24,9 +24,9 @@ header{display: flex;
 	height: 500;
 }
 .bgColor{justify-content: center;
-	background-color: lightblue;
+	background-color: white;
 }
-body{background: lightblue;}
+body{background: white;}
 li{list-style-type: none;padding: 10px;margin: 10px;}
 ul{display: flex;justify-content: flex-end; list-style-type: none; flex-wrap: wrap;}
 nav{width: 100%;}
@@ -69,16 +69,16 @@ h3{justify-content: center;
 	padding-left:2px ;}
 .margin{
 	margin:8px;}
-aside p{ color:white; }
+aside p{ color:black; }
 
 {box-sizing: border-box ; 
   padding: 0 ;
   margin: 0 ; 
 }
 @media only screen and (min-width: 780px){
-	body .gridIndex{background-color: lightblue;}
+	body .gridIndex{background-color: white;}
 	header,footer{flex-direction: column;}
 	ul{padding: 0;}
 @media only screen and(min-width: 780px) and (min-width: 1023px) 
-    {body .gridIndex{background-color: lightblue;}
+    {body .gridIndex{background-color: white;}
  @media only screen and(min-width: 1024px)
