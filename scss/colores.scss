@@ -1,9 +1,4 @@
-//VARIABLES
-$colorPrimario: black
-$colorSecundario:white
-$bgPrimario:black
-$bgSecundario:white
-$colorBlanco:white
-$colorNegro:black
-
-h3 {color: colorPrimario;}
+ //VARIABLES
+$colorPrimario:white;
+$colorSecundario:black;
+h1{color: $colorSecundario;}
