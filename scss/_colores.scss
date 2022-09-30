@@ -1,0 +1,11 @@
+ //VARIABLES
+$colorPrimario:white;
+$colorSecundario:black;
+h1{color: $colorSecundario;}
+$fullAncho: 100%;
+$halfwidth: 50% ;
+$anchoAbsoluto: 900%;
+
+header{
+    width: ($anchoAbsoluto /3)*.5;
+}

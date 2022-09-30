@@ -1,73 +1,75 @@
-body {
-  background-color: black; }
+h1 {
+  color: black; }
 
-body header {
+header {
+  width: 150%; }
+
+body {
+  color: black; }
+
+header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   grid-area: header;
   margin-bottom: 50px;
-  border-bottom: solid 1px;
+  border-top: solid 1px;
   padding: 20px 0;
   grid-area: header; }
 
-li { justify-content: center;
+li {
   list-style-type: none;
   padding: 10px;
   margin: 10px; }
-
-li ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  flex-wrap: wrap; }
+  li ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap; }
 
 a {
-  text-decoration: none;
-  justify-content: center; }
+  text-decoration: none; }
 
-a:hover {
-  color: black; }
-
-nav {
-  width: 100%; }
-
-main {
-  text-align: center; }
-
-main article {
-  text-align: center; }
-
-main article p {
-  color: black; }
-
-h3 {
+h1 {
+  text-align: center;
   justify-content: center;
   font-family: comic sans ms;
   color: black; }
 
-h1 {
-  color: black;
-  font-family: comic sans ms; }
+h3 {
+  text-align: center;
+  justify-content: center;
+  font-family: comic sans ms;
+  color: gray; }
 
-.texto {
-  background-color: black; }
+main article {
+  justify-content: center;
+  text-align: center;
+  color: black; }
+  main article p {
+    justify-content: center;
+    text-align: center;
+    color: black; }
 
-.texto--texto {
-  padding: 50px; }
+.imgPrincipal img, .img img {
+  width: 100%; }
 
-.encabezado {
-  width: 1000;
-  height: 500; }
-
-/*.bgColor {
-  background-color: white;
-  justify-content: center; }*/
-
-.box {
-  width: 600;
-  height: 600;
-  background-image: linear-gradient(gray, white); }
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-area: footer; }
 
 header {
-  width: 150px; }
+  color: black; }
+
+body {
+  color: black; }
+
+h1 {
+  color: black; }
+
+h3 {
+  color: black; }
+
+h3 {
+  color: black; }

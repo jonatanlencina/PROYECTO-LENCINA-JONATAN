@@ -1,0 +1,44 @@
+//NESTING
+body{
+  color:black;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  grid-area: header;margin-bottom: 50px;border-top: solid 1px;padding: 20px 0;
+  grid-area: header;
+}
+li{
+  list-style-type: none;
+  padding:10px;
+  margin:10px;
+  ul{
+    display: flex;justify-content: center;list-style-type: none;flex-wrap: wrap;
+  }
+}
+a{
+  text-decoration: none;
+}
+h1{
+  text-align: center;
+  justify-content: center;
+   font-family: comic sans ms;
+    color: black;
+}
+h3{
+  text-align: center;
+  justify-content: center
+  ;font-family: comic sans ms;
+   color: gray;
+}
+main article{
+  justify-content: center;
+  text-align: center;
+  color: black;
+  p{
+    justify-content: center;
+    text-align: center;
+    color: black;
+  }
+}
+.imgPrincipal img, .img img{width: 100%;}

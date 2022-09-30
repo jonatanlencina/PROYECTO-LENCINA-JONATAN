@@ -1,0 +1,10 @@
+.row {d-flex justify-content:center;
+ div{
+	width: 100px;
+	}
+}
+@media(max-width: 300px;){
+	.row d-flex justify-content-center{
+		flex-direction: column;
+	}
+}
